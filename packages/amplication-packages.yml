@@ -1,0 +1,43 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.npmjs.com/org/amplication
+notes: >-
+  First-party npm packages published under the @amplication scope. Amplication is
+  an open-source backend code-generation platform; these are its CLI and
+  code-generation libraries (the platform generates REST/GraphQL services for
+  users, rather than shipping consumer client SDKs for a hosted API). Versions and
+  last-publish dates verified against the npm registry on 2026-07-17.
+packages:
+- language: javascript
+  registry: npm
+  name: "@amplication/cli"
+  url: https://www.npmjs.com/package/@amplication/cli
+  install: npm install -g @amplication/cli
+  version: 0.1.4
+  license: Apache-2.0
+  bin: amp
+  last_published: '2024-09-09'
+  official: true
+  description: Amplication command-line interface (oclif-based, binary `amp`).
+- language: javascript
+  registry: npm
+  name: "@amplication/data-service-generator"
+  url: https://www.npmjs.com/package/@amplication/data-service-generator
+  install: npm install @amplication/data-service-generator
+  version: 1.1.13
+  last_published: '2024-09-09'
+  official: true
+  description: >-
+    DSG (Data Service Generator) — the component responsible for generating source
+    code and integrating plugins into the code-generation process.
+- language: javascript
+  registry: npm
+  name: "@amplication/code-gen-types"
+  url: https://www.npmjs.com/package/@amplication/code-gen-types
+  install: npm install @amplication/code-gen-types
+  version: 3.2.1
+  last_published: '2025-02-11'
+  official: true
+  description: >-
+    Shared contracts for Amplication code generation, published for inclusion in
+    community code-generation plugins.

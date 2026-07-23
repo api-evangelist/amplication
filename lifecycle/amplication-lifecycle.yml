@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: derived
+source: https://github.com/amplication/amplication/releases
+versioning:
+  scheme: semver
+  current: v3.15.0
+  docs: https://github.com/amplication/amplication/releases
+deprecation:
+  policy_url: null
+  sunset_header: false
+sla:
+  url: null
+status_page: null
+deprecated_operations: []
+notes: >-
+  Amplication versions its open-source platform with SemVer via GitHub Releases.
+  No published deprecation policy, SLA, or status page was found — the previously
+  hosted service (app.amplication.com) has been retired and amplication.com now
+  redirects to overcut.ai. No StatusPage/Deprecation pointers are emitted because
+  neither surface is published.

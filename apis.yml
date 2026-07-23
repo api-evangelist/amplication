@@ -1,8 +1,16 @@
 aid: amplication
 name: Amplication
-description: 'Amplication is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Amplication is an open-source backend development platform that generates
+  production-ready microservices — REST APIs, GraphQL endpoints, data models,
+  DTOs, and supporting infrastructure code — from a domain model, embedding
+  organizational best practices and standards so teams avoid repetitive backend
+  coding. The project is TypeScript-based, distributed as @amplication npm
+  packages and an `amp` CLI, and remains actively maintained on GitHub (16k+
+  stars, v3.15.0). Originally offered a hosted product at app.amplication.com; the
+  hosted service and docs subdomain have since been retired and the amplication.com
+  root now redirects to overcut.ai (the founders' agentic-SDLC venture), while the
+  open-source project, npm packages, and Discord community continue.
 url: https://raw.githubusercontent.com/api-evangelist/amplication/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,34 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-notes: >-
+  amplication.com 301-redirects to overcut.ai; app.amplication.com and
+  docs.amplication.com no longer resolve. Living surfaces are the GitHub org and
+  npm packages.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://avatars.githubusercontent.com/u/65107786?v=4
 tags:
 - Company
-- Unknown
+- Backend
+- Code Generation
+- Developer Tools
+- Open Source
+- Platform Engineering
+- Microservices
+- API Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +53,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/amplication-domain-security.yml
+- type: Packages
+  url: packages/amplication-packages.yml
+- type: CLI
+  url: cli/amplication-cli.yml
+- type: ChangeLog
+  url: changelog/amplication-changelog.yml
+- type: Lifecycle
+  url: lifecycle/amplication-lifecycle.yml
+- type: GitHubOrganization
+  url: https://github.com/amplication
+- type: Documentation
+  url: https://github.com/amplication/amplication-docs
+- type: Support
+  url: https://discord.gg/amplication
 - type: Website
   url: https://amplication.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,22 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/amplication/amplication/releases
+scheme: semver
+current_version: v3.15.0
+notes: >-
+  Release history is published as GitHub Releases on the open-source repository
+  (228+ tagged releases). Recent window captured below; the GitHub Releases page is
+  the authoritative source. Per-release notes on GitHub are auto-generated changelogs.
+entries:
+- version: v3.15.0
+  date: '2026-04-02'
+- version: v3.14.0
+  date: '2025-04-25'
+- version: v3.13.1979
+  date: '2025-03-12'
+- version: v3.13.0
+  date: '2025-03-10'
+- version: v3.12.4
+  date: '2025-03-09'
+- version: v3.12.3
+  date: '2025-03-09'

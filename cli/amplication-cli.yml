@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.npmjs.com/package/@amplication/cli
+name: Amplication CLI
+binary: amp
+framework: oclif
+package: "@amplication/cli"
+version: 0.1.4
+license: Apache-2.0
+last_published: '2024-09-09'
+repository: https://github.com/amplication/amplication
+install:
+- method: npm
+  command: npm install -g @amplication/cli
+description: >-
+  First-party command-line interface for the open-source Amplication backend
+  code-generation platform. Built on the oclif framework; the installed binary is
+  `amp`. The CLI is catalogued as a package in packages/amplication-packages.yml;
+  this artifact records its command surface. The exact top-level command topics are
+  not re-documented here to avoid fabrication — see the repository for the
+  authoritative command reference.
+notes: >-
+  The hosted Amplication service (app.amplication.com, docs.amplication.com) no
+  longer resolves and amplication.com now redirects to overcut.ai; the CLI remains
+  published on npm and the open-source project is active on GitHub.
