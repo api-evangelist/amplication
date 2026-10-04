@@ -55,7 +55,7 @@ tags:
 - Backend
 - Code Generation
 - Developer Tools
-- Open-Source
+- Open Source
 - Platform Engineering
 - Microservices
 - API Development
@@ -68,6 +68,7 @@ tags_raw:
 - Platform Engineering
 - Microservices
 - API Development
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
