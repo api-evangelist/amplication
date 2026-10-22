@@ -14,6 +14,7 @@ checked:
 - https://formulae.brew.sh/api/formula.json
 - https://github.com/ScoopInstaller/Extras
 - https://github.com/ScoopInstaller/Main
+- backstage/integrations/backstage-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -91,6 +92,23 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-official-clis.py
   first_seen: '2026-10-20'
+- partner_name: Backstage (own)
+  partner: backstage
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://github.com/backstage/backstage/tree/d72327203d5d0812bee2eace8688fa5ab22867be/microsite/data/plugins/amplication.yaml
+  mirror_of: backstage/integrations/backstage-integration-edges.yml
+  apps:
+  - Amplication Resources
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Development
 source:
 - https://registry.npmjs.org
 - https://pypi.org/pypi
